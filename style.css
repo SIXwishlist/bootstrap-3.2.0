@@ -1,0 +1,89 @@
+/*
+Theme Name: Bootstrap 3.2.0
+Theme URI: http://getbootstrap.com
+Version: 3.2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description:Bootstrap 3.2.0 compiled
+*/
+@import url('css/bootstrap.css');
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #2b2b2b;
+	font-family: Lato, sans-serif;
+	font-size:0.9em;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+/* stop the admin bar overlapping things */
+#wpadminbar {
+	height:10px;font-size:0.7em; 
+}
+
+/* sidebars */
+.main-sidebar {margin-top:40px;}
+.main-sidebar .widget-title {
+	margin-top:0;
+}
+
+/* page featured images */
+.page-feat-img {
+	width:100%;max-width:100%;height:auto;
+}
+
+.jumbotron {
+	margin-bottom:0;
+}	
+
+/* FOOTER
+============================================= */
+#footer {
+	padding:1em 20px;
+	margin-top:1em;
+	text-align:justify;
+	background:#f1f1f1;
+	border-radius:5px;
+}
+
+.footer-widget {
+	box-sizing:border-box;
+	/* display:inline-block;*/
+}
+
+
+.footer-widget:first-child {
+	padding-left:0;
+}
+.footer-widget:last-child {
+	border-right:none;
+}
+
+.footer-widget .widget-title {
+	margin-top:0.8em;
+}
+
+.footer-widget ul {
+	list-style:none;
+	margin:0;padding:0;
+}
+
+@media (min-width:992px){
+	.footer-widget {
+		border-right:1px dotted #666;
+	}
+	.footer-widget {
+		padding-left:2em;
+	}
+}
+
+@media (max-width:991px){
+	
+	.footer-widget {padding-left:0;}
+	.footer-widget .search-form label {max-width:50%;}
+	.footer-widget .search-form .search-submit { display:block;}
+}
