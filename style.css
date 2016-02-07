@@ -17,7 +17,7 @@ textarea {
 	font-family: Lato, sans-serif;
 	font-size:0.9em;
 	font-weight: 400;
-	line-height: 1.5;
+	line-height: 1.4;
 }
 
 /* stop the admin bar overlapping things */
@@ -38,7 +38,12 @@ textarea {
 
 .jumbotron {
 	margin-bottom:0;
-}	
+}
+
+/* MAIN CONTENT 
+============================================ */
+#main-container {margin-top:3em;}
+.home #main-container {margin-top:0;}
 
 /* FOOTER
 ============================================= */
